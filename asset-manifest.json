@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fast8group-assestment1/static/css/main.6d965390.css",
-    "main.js": "/fast8group-assestment1/static/js/main.79351801.js",
+    "main.js": "/fast8group-assestment1/static/js/main.e21918a4.js",
     "static/js/787.2790237f.chunk.js": "/fast8group-assestment1/static/js/787.2790237f.chunk.js",
     "index.html": "/fast8group-assestment1/index.html",
     "main.6d965390.css.map": "/fast8group-assestment1/static/css/main.6d965390.css.map",
-    "main.79351801.js.map": "/fast8group-assestment1/static/js/main.79351801.js.map",
+    "main.e21918a4.js.map": "/fast8group-assestment1/static/js/main.e21918a4.js.map",
     "787.2790237f.chunk.js.map": "/fast8group-assestment1/static/js/787.2790237f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d965390.css",
-    "static/js/main.79351801.js"
+    "static/js/main.e21918a4.js"
   ]
 }
