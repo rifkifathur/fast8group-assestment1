@@ -12,7 +12,7 @@ const Navbar = () => {
                     <img src="./assets/gadjian.svg" alt="search" width={120} className="block md:hidden"/>
                 </div>
                 <div className='flex basis-1/2 justify-end items-center box-content px-8'>
-                    <p className="mx-2">Hallo, <span className="text-[#00a090]">Gadjian User</span></p>
+                    <p className="mx-2 hidden lg:block">Hallo, <span className="text-[#00a090] hidden lg:block">Gadjian User</span></p>
                     <div className="text-xs border border-black w-[50px] h-[50px] rounded-[50%]">
                         <p className="my-3.5 mx-2">Photo</p>
                     </div>
