@@ -9,7 +9,7 @@ const Navbar = () => {
                     <div className="w-[24px] h-[5px] bg-slate-600 m-1 rounded-md"></div>
                 </div>
                 <div>
-                    <img src="/assets/gadjian.svg" alt="search" width={120} className="block md:hidden"/>
+                    <img src="./assets/gadjian.svg" alt="search" width={120} className="block md:hidden"/>
                 </div>
                 <div className='flex basis-1/2 justify-end items-center box-content px-8'>
                     <p className="mx-2">Hallo, <span className="text-[#00a090]">Gadjian User</span></p>

@@ -65,12 +65,12 @@ const PersonnelList = () => {
                                     </div>
                                     <div className='flex flex-col lg:flex-row'>
                                         <div className="self-start md:self-center relative w-[100%] my-2">
-                                            <img src="/assets/search.svg" alt="search" width={24} className="absolute left-2 top-2" />
+                                            <img src="./assets/search.svg" alt="search" width={24} className="absolute left-2 top-2" />
                                             <input type='search' placeholder='Find Personnels' className="mr-3 lg:w-auto w-[100%] h-10 border border-gray-400 self-center pl-8 font-bold" />
                                         </div>
                                         <div className='bg-[#00a090] h-10 self-start md:self-center relative p-2 w-[100%]'>
                                             <button className="md:mr-4 text-white font-bold">ADD PERSONNEL</button>
-                                            <img src="/assets/plus.svg" alt="search" width={16} className="absolute right-2 top-3" />
+                                            <img src="./assets/plus.svg" alt="search" width={16} className="absolute right-2 top-3" />
                                         </div>
                                     </div>
                                 </div>

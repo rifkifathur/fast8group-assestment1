@@ -5,21 +5,21 @@ const Sidebar = () => {
         {
             id: 1,
             txt: 'Beranda',
-            icon: '/assets/beranda.svg',
+            icon: './assets/beranda.svg',
             link: '/beranda',
             color: 'text-[#000]'
         },
         {
             id: 2,
             txt: 'Personnel List',
-            icon: '/assets/team.svg',
+            icon: './assets/team.svg',
             link: '/personnel-list',
             color: 'text-[#00a090]'
         },
         {
             id: 3,
             txt: 'Daily Attendance',
-            icon: '/assets/calender.svg',
+            icon: './assets/calender.svg',
             link: '/daily-attendance',
             color: 'text-[#000]'
         }
