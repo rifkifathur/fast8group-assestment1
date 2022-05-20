@@ -28,7 +28,7 @@ const Sidebar = () => {
     return (
         <aside className='flex flex-col w-60 h-full top-0 bg-white text-white fixed hidden md:block'>
             <div className='p-2 mx-9'>
-                <img src="/assets/gadjian.svg" alt="search" width={120}/>
+                <img src="./assets/gadjian.svg" alt="search" width={120}/>
             </div>
             <div className='mt-8'>
                 <div className='ml-8'>

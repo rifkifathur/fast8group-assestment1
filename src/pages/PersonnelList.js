@@ -82,7 +82,7 @@ const PersonnelList = () => {
                                             <Card>
                                                 <div className='flex justify-between border-b border-slate-600 p-3'>
                                                     <p>Personnel ID: <span className="text-[#00a090]">{item.id.value}</span></p>
-                                                    <img src='/assets/dot.svg' alt='item.txt' width={24} />
+                                                    <img src='./assets/dot.svg' alt='item.txt' width={24} />
                                                 </div>
                                                 <div className="p-3 flex md:block justify-start">
                                                     <div className='text-center p-8 md:p-8 flex justify-center'>
@@ -117,12 +117,12 @@ const PersonnelList = () => {
                 </Container>
                 <div className='flex mx-[35%] my-4'>
                     <div className="flex  w-[200px]">
-                        <img src='/assets/prev.svg' alt='item.txt' width={24} className={disablePrev ? "opaciry-100" : "opacity-50 cursor-no-drop"} onClick={handlePrev} />
+                        <img src='./assets/prev.svg' alt='item.txt' width={24} className={disablePrev ? "opaciry-100" : "opacity-50 cursor-no-drop"} onClick={handlePrev} />
                         <button className={disablePrev ? "opaciry-100" : "opacity-50 cursor-no-drop"} onClick={handlePrev}>Previous Page</button>
                     </div>
                     <div className="flex w-[100px]">
                         <button className={disableNext ? "opaciry-100" : "opacity-50 cursor-no-drop"} onClick={handleNext}>Next Page</button>
-                        <img src='/assets/next.svg' alt='item.txt' width={24} className={disableNext ? "opaciry-100" : "opacity-50 cursor-no-drop"} onClick={handleNext} />
+                        <img src='./assets/next.svg' alt='item.txt' width={24} className={disableNext ? "opaciry-100" : "opacity-50 cursor-no-drop"} onClick={handleNext} />
                     </div>
                 </div>
             </Main>
